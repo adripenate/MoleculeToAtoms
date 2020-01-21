@@ -21,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/MoleculeParseShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+            <state relative-caret-position="73">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,7 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579621672017</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Red test - parse_molecule_H">
+      <created>1579622245494</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579622245494</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Green test - parse_molecule_H">
+      <created>1579622424157</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579622424157</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -159,6 +173,18 @@
       <configuration name="MoleculeParseShould" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MoleculeParseShould - 2020.01.21 at 15h 46m 50s.xml">
+      <configuration name="MoleculeParseShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoleculeParseShould - 2020.01.21 at 15h 57m 01s.xml">
+      <configuration name="MoleculeParseShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoleculeParseShould - 2020.01.21 at 15h 59m 18s.xml">
+      <configuration name="MoleculeParseShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoleculeParseShould - 2020.01.21 at 16h 00m 09s.xml">
+      <configuration name="MoleculeParseShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoleculeParseShould - 2020.01.21 at 16h 00m 49s.xml">
       <configuration name="MoleculeParseShould" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -197,7 +223,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Red test - throw_an_exception_when_is_not_a_molecule" />
     <MESSAGE value="Green test - throw_an_exception_when_is_not_a_molecule" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green test - throw_an_exception_when_is_not_a_molecule" />
+    <MESSAGE value="Red test - parse_molecule_H" />
+    <MESSAGE value="Green test - parse_molecule_H" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green test - parse_molecule_H" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -209,8 +237,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MoleculeParseShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+        <state relative-caret-position="73">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
