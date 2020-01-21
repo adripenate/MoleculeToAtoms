@@ -11,8 +11,8 @@ public class MoleculeParseShould {
     }
 
     private static class MoleculeParse {
-        public static Map<String, Integer> parse(String molecule) {
-            return null;
+        public static Map<String, Integer> parse(String molecule) throws IllegalArgumentException {
+            throw new IllegalArgumentException();
         }
     }
 }
