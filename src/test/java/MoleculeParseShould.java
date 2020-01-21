@@ -29,11 +29,15 @@ public class MoleculeParseShould {
 
     private static class MoleculeParse {
         public static Map<String, Integer> parse(String molecule) throws IllegalArgumentException {
-            if (molecule.matches("^[a-z].*")) throw new IllegalArgumentException();
+            if (isInvalidMolecule(molecule)) throw new IllegalArgumentException();
             int molecules = (molecule.length() == 1)? 1 : Integer.parseInt(molecule.charAt(1) + "");
             return new HashMap<String, Integer>(){{
                 put("H", molecules);
             }};
+        }
+
+        private static boolean isInvalidMolecule(String molecule) {
+            return molecule.matches("^[a-z].*");
         }
     }
 }
