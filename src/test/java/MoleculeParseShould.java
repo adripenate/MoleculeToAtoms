@@ -21,7 +21,10 @@ public class MoleculeParseShould {
 
     private static class MoleculeParse {
         public static Map<String, Integer> parse(String molecule) throws IllegalArgumentException {
-            throw new IllegalArgumentException();
+            if (molecule.matches("^[a-z].*")) throw new IllegalArgumentException();
+            return new HashMap<String, Integer>(){{
+                put("H", 1);
+            }};
         }
     }
 }
