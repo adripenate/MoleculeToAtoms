@@ -19,6 +19,14 @@ public class MoleculeParseShould {
         assertThat(MoleculeParse.parse("H")).isEqualTo(expectedResult);
     }
 
+    @Test
+    public void parse_molecule_H2() {
+        Map<String, Integer> expectedResult = new HashMap<String, Integer>(){{
+            put("H", 2);
+        }};
+        assertThat(MoleculeParse.parse("H2")).isEqualTo(expectedResult);
+    }
+
     private static class MoleculeParse {
         public static Map<String, Integer> parse(String molecule) throws IllegalArgumentException {
             if (molecule.matches("^[a-z].*")) throw new IllegalArgumentException();
